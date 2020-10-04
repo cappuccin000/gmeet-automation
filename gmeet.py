@@ -11,7 +11,7 @@ time.sleep(3)
 #link=input("Enter the meeting link:")
 pyautogui.hotkey('ctrl','t')
 time.sleep(3)
-pyautogui.typewrite("https://meet.google.com/sdd-uazh-cmn?authuser=2",interval=0.1)
+pyautogui.typewrite("https://meet.google.com/your_gmeet_id",interval=0.1)
 
 pyautogui.typewrite(['enter'])
 time.sleep(3)
